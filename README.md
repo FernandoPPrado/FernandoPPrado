@@ -12,15 +12,25 @@ Estudante de Engenharia de Controle e Automação no IFC — São Bento do Sul.
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
 ![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat&logo=spring&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=JSON%20web%20tokens&logoColor=white)
+![JUnit5](https://img.shields.io/badge/JUnit5-25A162?style=flat&logo=junit5&logoColor=white)
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat&logo=apache-maven&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 
 ---
 
 ## Projetos
+
+### 🛡️ [Nexus Identity Provider](https://github.com/FernandoPPrado/nexus-identity-provider) ![Produção](https://img.shields.io/badge/Status-Em_Produ%C3%A7%C3%A3o-25A162?style=flat)
+**Microsserviço em produção** desenvolvido para gerenciar autenticação e segurança descentralizada. Implementa criptografia assimétrica (JWT RSA) com endpoint JWK, arquitetura multi-tenant, controle de abusos via Rate Limiting (Bucket4j/Caffeine) e processamento assíncrono de fluxos por e-mail.
+
+`Java 21` `Spring Boot 3` `Spring Security` `JWT (RSA)` `RabbitMQ` `PostgreSQL` `Docker` `Oracle Cloud`
+
+---
 
 ### 🔧 [LHMJavaMonitor](https://github.com/FernandoPPrado/LHMJavaMonitor)
 Agente standalone que coleta métricas de CPU, GPU e memória em tempo real e publica em fila RabbitMQ (CloudAMQP) a cada segundo. Arquitetura orientada a eventos com Java Flow API, integração com LibreHardwareMonitor via Feign Client e interface system tray no Windows.
@@ -69,4 +79,4 @@ Aplicação que consome a NewsAPI, armazena uma notícia por dia no banco de dad
 ## Contato
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fernando-prado21)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/FernandoPPrado)
+[![GitHub](https://img.shield
